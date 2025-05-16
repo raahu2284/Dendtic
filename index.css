@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.navdiv{
+    
+    background-color: #0c6980;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+    width: 100%;
+
+
+}
+.logo{
+    font-size: 40px;
+    color: aliceblue;
+    text-decoration: underline;
+    font-weight: 800;
+    
+
+    }
+
+.logo span{
+    font-size: 55px;
+}
+.navmenu {
+    display: flex;
+    align-items: center;
+    
+}
+.navmenu p{
+font-size: 20px;
+font-weight: bolder;
+margin-left: 20px;
+transition: 0.3s;
+}
+.navmenu p:hover{
+    color: antiquewhite;
+    text-decoration: underline;
+}
+.search{
+    height: 30px;
+    width:400px;
+    font-size: 15px;
+    border-color:2px solid #074453;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.navsearch{
+    padding-left:-750px ;
+    margin-right:400px ;
+     border-color: #074453;
+}
+.nav2{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    justify-content: space-around;
+}
+.nav2 p a{
+    color:bisque;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.menudiv{
+    display:flex;
+    justify-content: center;
+    background-color: #052b35;
+    justify-content: space-around;
+    align-items: center;
+    height: 270px;
+    
+
+}
+img{
+    height:200px;
+    width: 200px;
+    justify-content: space-around;
+    border-radius: 10px;
+    background-size:cover;
+    margin-top: 20px;
+    transition: 0.5s;
+    
+}
+
+img:hover{
+    transform: scale(1.05);
+    border: 1px solid rgb(107, 2, 2);
+
+}
+.box .p1{
+    font-size: 20px;
+    font-weight: bolder;
+    color: blanchedalmond;
+}
+.box .p2{
+    color: burlywood;
+}
+.box span{
+    color: green;
+    font-size: 20px;
+    font-weight: 600;
+}
+footer{
+    height: 30px;
+    background-color: #074453;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+footer div p{
+    color: antiquewhite;
+    font-size: 20px;
+    font-weight: 800;
+}
