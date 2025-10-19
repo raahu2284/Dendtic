@@ -50,6 +50,15 @@ transition: 0.3s;
     border-radius: 5px;
     padding-left: 10px;
 }
+.search {
+  width: 100%;
+  max-width: 400px;
+}
+img {
+  width: 100%;
+  max-width: 200px;
+}
+
 .navsearch{
     padding-left:-750px ;
     margin-right:400px ;
@@ -78,6 +87,16 @@ transition: 0.3s;
     
 
 }
+.navmenu {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menudiv {
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
 img{
     height:200px;
     width: 200px;
@@ -119,4 +138,60 @@ footer div p{
     color: antiquewhite;
     font-size: 20px;
     font-weight: 800;
+
+}
+
+/* Smartphones (portrait) */
+@media (max-width: 600px) {
+  .logo {
+    font-size: 28px;
+  }
+  .logo span {
+    font-size: 36px;
+  }
+
+  .navdiv {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .navmenu p {
+    font-size: 16px;
+    margin: 10px;
+  }
+
+  .search {
+    width: 90%;
+    margin-top: 10px;
+  }
+
+  .nav2 {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .nav2 p a {
+    font-size: 18px;
+  }
+
+  .menudiv {
+    flex-direction: column;
+    height: auto;
+  }
+
+  img {
+    width: 80%;
+    height: auto;
+  }
+
+  footer div p {
+    font-size: 16px;
+  }
+}
+
+
+* {
+  box-sizing: border-box;
 }
